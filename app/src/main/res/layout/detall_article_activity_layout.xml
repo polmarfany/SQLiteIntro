@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="20sp"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tvCodiArticle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Codi Article:" />
+
+    <TextView
+        android:id="@+id/edtCoditArticle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/tvDescripcio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Descripcio:" />
+
+    <EditText
+        android:id="@+id/edtDescripcio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="text"/>
+
+    <TextView
+        android:id="@+id/tvPVP"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PVP:"/>
+
+    <EditText
+        android:id="@+id/edtPVP"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"/>
+
+    <TextView
+        android:id="@+id/tvStock"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Stock: " />
+
+    <EditText
+        android:id="@+id/edtStock"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"/>
+
+    <Button
+        android:id="@+id/btnGuardarCanvis"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Guardar Canvis" />
+
+    <Button
+        android:id="@+id/btnCancelar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cancelar" />
+
+
+</LinearLayout>

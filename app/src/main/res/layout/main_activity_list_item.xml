@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="20sp"
+    >
+
+    <TextView
+        android:id="@+id/tvCodiArticle"
+        android:text="Codi"
+        android:textSize="20sp"
+        android:layout_marginTop="20dp"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"/>
+
+    <TextView
+        android:id="@+id/tvStock"
+        android:text="Stock"
+        android:textSize="15sp"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"/>
+
+    <TextView
+        android:id="@+id/tvDescripcio"
+        android:text="Descripcio"
+        android:textSize="15sp"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent" />
+
+
+
+
+</LinearLayout>
